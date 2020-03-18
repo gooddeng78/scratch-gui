@@ -357,5 +357,35 @@ export default [
             />
         ),
         helpLink: 'https://github.com/oroca/OROCA-EduBot'
-    }
+    },
+     {
+         name: 'ROBOTIS Dream School Set',
+         extensionId: 'robotisdream',
+         collaborator: 'ROBOTIS',
+         iconURL: robotisDreamIconURL,
+         insetIconURL: robotisDreamInsetIconURL,
+         description: (
+             <FormattedMessage
+                 defaultMessage="We Provide Creativity!"
+                 description="Never Stop Playing, Never Stop Learning!"
+                 id="gui.extension.robotisdream.description"
+             />
+         ),
+         featured: true,
+         disabled: false,
+         bluetoothRequired: true,
+         internetConnectionRequired: false,
+         launchPeripheralConnectionFlow: true,
+         useAutoScan: false,
+         connectionIconURL: robotisDreamConnectionIconURL,
+         connectionSmallIconURL: robotisDreamConnectionSmallIconURL,
+         connectingMessage: (
+             <FormattedMessage
+                 defaultMessage="Connecting"
+                 description="Message to help people connect to their force and acceleration sensor."
+                 id="gui.extension.robotisdream.connectingMessage"
+             />
+         ),
+         helpLink: 'https://www.robotis.com'
+     }
 ];
