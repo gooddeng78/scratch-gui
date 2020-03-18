@@ -156,21 +156,21 @@ export default [
         featured: true,
         internetConnectionRequired: true
     },
-    {
-        name: 'Makey Makey',
-        extensionId: 'makeymakey',
-        collaborator: 'JoyLabz',
-        iconURL: makeymakeyIconURL,
-        insetIconURL: makeymakeyInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Make anything into a key."
-                description="Description for the 'Makey Makey' extension"
-                id="gui.extension.makeymakey.description"
-            />
-        ),
-        featured: true
-    },
+    // {
+    //     name: 'Makey Makey',
+    //     extensionId: 'makeymakey',
+    //     collaborator: 'JoyLabz',
+    //     iconURL: makeymakeyIconURL,
+    //     insetIconURL: makeymakeyInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage="Make anything into a key."
+    //             description="Description for the 'Makey Makey' extension"
+    //             id="gui.extension.makeymakey.description"
+    //         />
+    //     ),
+    //     featured: true
+    // },
     {
         name: 'micro:bit',
         extensionId: 'microbit',
@@ -201,36 +201,36 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/microbit'
     },
-    {
-        name: 'LEGO MINDSTORMS EV3',
-        extensionId: 'ev3',
-        collaborator: 'LEGO',
-        iconURL: ev3IconURL,
-        insetIconURL: ev3InsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Build interactive robots and more."
-                description="Description for the 'LEGO MINDSTORMS EV3' extension"
-                id="gui.extension.ev3.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        bluetoothRequired: true,
-        internetConnectionRequired: true,
-        launchPeripheralConnectionFlow: true,
-        useAutoScan: false,
-        connectionIconURL: ev3ConnectionIconURL,
-        connectionSmallIconURL: ev3ConnectionSmallIconURL,
-        connectingMessage: (
-            <FormattedMessage
-                defaultMessage="Connecting. Make sure the pin on your EV3 is set to 1234."
-                description="Message to help people connect to their EV3. Must note the PIN should be 1234."
-                id="gui.extension.ev3.connectingMessage"
-            />
-        ),
-        helpLink: 'https://scratch.mit.edu/ev3'
-    },
+    // {
+    //     name: 'LEGO MINDSTORMS EV3',
+    //     extensionId: 'ev3',
+    //     collaborator: 'LEGO',
+    //     iconURL: ev3IconURL,
+    //     insetIconURL: ev3InsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage="Build interactive robots and more."
+    //             description="Description for the 'LEGO MINDSTORMS EV3' extension"
+    //             id="gui.extension.ev3.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     bluetoothRequired: true,
+    //     internetConnectionRequired: true,
+    //     launchPeripheralConnectionFlow: true,
+    //     useAutoScan: false,
+    //     connectionIconURL: ev3ConnectionIconURL,
+    //     connectionSmallIconURL: ev3ConnectionSmallIconURL,
+    //     connectingMessage: (
+    //         <FormattedMessage
+    //             defaultMessage="Connecting. Make sure the pin on your EV3 is set to 1234."
+    //             description="Message to help people connect to their EV3. Must note the PIN should be 1234."
+    //             id="gui.extension.ev3.connectingMessage"
+    //         />
+    //     ),
+    //     helpLink: 'https://scratch.mit.edu/ev3'
+    // },
     {
         name: 'LEGO BOOST',
         extensionId: 'boost',
@@ -293,36 +293,36 @@ export default [
         ),
         helpLink: 'https://scratch.mit.edu/wedo'
     },
-    {
-        name: 'Go Direct Force & Acceleration',
-        extensionId: 'gdxfor',
-        collaborator: 'Vernier',
-        iconURL: gdxforIconURL,
-        insetIconURL: gdxforInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Sense push, pull, motion, and spin."
-                description="Description for the Vernier Go Direct Force and Acceleration sensor extension"
-                id="gui.extension.gdxfor.description"
-            />
-        ),
-        featured: true,
-        disabled: false,
-        bluetoothRequired: true,
-        internetConnectionRequired: true,
-        launchPeripheralConnectionFlow: true,
-        useAutoScan: false,
-        connectionIconURL: gdxforConnectionIconURL,
-        connectionSmallIconURL: gdxforConnectionSmallIconURL,
-        connectingMessage: (
-            <FormattedMessage
-                defaultMessage="Connecting"
-                description="Message to help people connect to their force and acceleration sensor."
-                id="gui.extension.gdxfor.connectingMessage"
-            />
-        ),
-        helpLink: 'https://scratch.mit.edu/vernier'
-    },
+    // {
+    //     name: 'Go Direct Force & Acceleration',
+    //     extensionId: 'gdxfor',
+    //     collaborator: 'Vernier',
+    //     iconURL: gdxforIconURL,
+    //     insetIconURL: gdxforInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage="Sense push, pull, motion, and spin."
+    //             description="Description for the Vernier Go Direct Force and Acceleration sensor extension"
+    //             id="gui.extension.gdxfor.description"
+    //         />
+    //     ),
+    //     featured: true,
+    //     disabled: false,
+    //     bluetoothRequired: true,
+    //     internetConnectionRequired: true,
+    //     launchPeripheralConnectionFlow: true,
+    //     useAutoScan: false,
+    //     connectionIconURL: gdxforConnectionIconURL,
+    //     connectionSmallIconURL: gdxforConnectionSmallIconURL,
+    //     connectingMessage: (
+    //         <FormattedMessage
+    //             defaultMessage="Connecting"
+    //             description="Message to help people connect to their force and acceleration sensor."
+    //             id="gui.extension.gdxfor.connectingMessage"
+    //         />
+    //     ),
+    //     helpLink: 'https://scratch.mit.edu/vernier'
+    // },
      {
          name: 'ROBOTIS Dream School Set',
          extensionId: 'robotisdream',
