@@ -92,26 +92,26 @@ export default [
         ),
         featured: true
     },
-    {
-        name: (
-            <FormattedMessage
-                defaultMessage="Video Sensing"
-                description="Name for the 'Video Sensing' extension"
-                id="gui.extension.videosensing.name"
-            />
-        ),
-        extensionId: 'videoSensing',
-        iconURL: videoSensingIconURL,
-        insetIconURL: videoSensingInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Sense motion with the camera."
-                description="Description for the 'Video Sensing' extension"
-                id="gui.extension.videosensing.description"
-            />
-        ),
-        featured: true
-    },
+    // {
+    //     name: (
+    //         <FormattedMessage
+    //             defaultMessage="Video Sensing"
+    //             description="Name for the 'Video Sensing' extension"
+    //             id="gui.extension.videosensing.name"
+    //         />
+    //     ),
+    //     extensionId: 'videoSensing',
+    //     iconURL: videoSensingIconURL,
+    //     insetIconURL: videoSensingInsetIconURL,
+    //     description: (
+    //         <FormattedMessage
+    //             defaultMessage="Sense motion with the camera."
+    //             description="Description for the 'Video Sensing' extension"
+    //             id="gui.extension.videosensing.description"
+    //         />
+    //     ),
+    //     featured: true
+    // },
     {
         name: (
             <FormattedMessage
@@ -171,6 +171,36 @@ export default [
     //     ),
     //     featured: true
     // },
+     {
+         name: 'ROBOTIS Dream School Set',
+         extensionId: 'robotisdream',
+         collaborator: 'ROBOTIS',
+         iconURL: robotisDreamIconURL,
+         insetIconURL: robotisDreamInsetIconURL,
+         description: (
+             <FormattedMessage
+                 defaultMessage="We Provide Creativity!"
+                 description="Never Stop Playing, Never Stop Learning!"
+                 id="gui.extension.robotisdream.description"
+             />
+         ),
+         featured: true,
+         disabled: false,
+         bluetoothRequired: true,
+         internetConnectionRequired: false,
+         launchPeripheralConnectionFlow: true,
+         useAutoScan: false,
+         connectionIconURL: robotisDreamConnectionIconURL,
+         connectionSmallIconURL: robotisDreamConnectionSmallIconURL,
+         connectingMessage: (
+             <FormattedMessage
+                 defaultMessage="Connecting"
+                 description="Message to help people connect to their force and acceleration sensor."
+                 id="gui.extension.robotisdream.connectingMessage"
+             />
+         ),
+         helpLink: 'https://www.robotis.com'
+     },
     {
         name: 'micro:bit',
         extensionId: 'microbit',
@@ -323,34 +353,4 @@ export default [
     //     ),
     //     helpLink: 'https://scratch.mit.edu/vernier'
     // },
-     {
-         name: 'ROBOTIS Dream School Set',
-         extensionId: 'robotisdream',
-         collaborator: 'ROBOTIS',
-         iconURL: robotisDreamIconURL,
-         insetIconURL: robotisDreamInsetIconURL,
-         description: (
-             <FormattedMessage
-                 defaultMessage="We Provide Creativity!"
-                 description="Never Stop Playing, Never Stop Learning!"
-                 id="gui.extension.robotisdream.description"
-             />
-         ),
-         featured: true,
-         disabled: false,
-         bluetoothRequired: true,
-         internetConnectionRequired: false,
-         launchPeripheralConnectionFlow: true,
-         useAutoScan: false,
-         connectionIconURL: robotisDreamConnectionIconURL,
-         connectionSmallIconURL: robotisDreamConnectionSmallIconURL,
-         connectingMessage: (
-             <FormattedMessage
-                 defaultMessage="Connecting"
-                 description="Message to help people connect to their force and acceleration sensor."
-                 id="gui.extension.robotisdream.connectingMessage"
-             />
-         ),
-         helpLink: 'https://www.robotis.com'
-     }
 ];
